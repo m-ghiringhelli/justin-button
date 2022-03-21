@@ -21,6 +21,7 @@ body {
     width: 250px;
     height: 70px;
     margin: auto;
+    top: 280px;
     position: relative;
     z-index: 1;
 }
