@@ -1,0 +1,62 @@
+body {
+    background-color: aliceblue;
+}
+
+.main-container {
+    border: 1px solid red;
+    width: 90%;
+    margin: auto;
+    height: 800px;
+}
+
+.sub-container {
+    border: 1px solid darkblue;
+    width: 80%;
+    height: 400px;
+    margin: 100px auto;
+}
+
+.buttons {
+    border: 1px solid green;
+    width: 250px;
+    height: 70px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.button {
+    width: 250px;
+    height: 70px;
+    position: absolute;
+}
+
+.buttons:hover > .top-button {
+    right: 80px;
+    bottom: 15px;
+}
+
+.buttons:hover > .mid-button {
+    right: 50px;
+    bottom: 10px;
+}
+
+.buttons:hover > .bottom-button {
+    right: 20px;
+    bottom: 5px;
+}
+
+.top-button {
+    z-index: 4;
+    border: 2px solid red;
+}
+
+.mid-button {
+    z-index: 3;
+    border: 2px solid blue;
+}
+
+.bottom-button {
+    z-index: 2;
+    border: 2px solid yellow;
+}
